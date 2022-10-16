@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button  id="add-luffy-btn" onclick="addLuffy()">Luffy</button>
+   <!--<button  id="Kaido"> <img src=Images/Kaido.png>Kaido</button>
+    <button  id="Zoro"> <img src="Images/ZoroWano.png">Zoro</button>
+    <button  id="Kidd"> <img src=Images/KiddWano.png>Kidd</button> -->      
+
+    <div id="outputDiv"></div>
+    <img src="Images/LuffyWano.png" height="200" width="100" id="Image">
+    <style>
+body{
+background-image: url(Images/Wano.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+
+<script>
+ 
+ var wanoOutput = document.getElementById("outputDiv");
+
+ var addLuffyBtn = doucment.getElementById("add-luffy-btn");
+
+ var kaidoInput = doucment.getElementById("Kaido");
+
+ var zoroInput = doucment.getElementById("Zoro");
+
+ var kiddInput = doucment.getElementById("Kidd");
+
+ function addLuffy(){
+wanoOutput.innerHTML = `<img src= "Images/LuffyWano.png">`;
+
+
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
